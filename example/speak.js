@@ -1,3 +1,7 @@
 var isaacs = require('isaacs');
-var s = isaacs.speak().join(' ')
-console.log(s)
+
+isaacs(function (izs) {
+  var s = izs.speak().join(' ')
+  console.log(s)
+  izs.end()
+})

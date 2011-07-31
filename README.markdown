@@ -10,9 +10,17 @@ example
 
 ````javascript
 var isaacs = require('isaacs')
-var s = isaacs.speak().join(' ')
-console.log(s)
+
+isaacs(function (izs) {
+  var s = isaacs.speak().join(' ')
+  console.log(s)
+  izs.end()
+})
 ````
+
+output:
+
+    
 
 methods
 =======
@@ -22,8 +30,7 @@ var isaacs = require('isaacs')
 isaacs(cb)
 ----------
 
-Calls `cb(isaacs)` once your isaacs has fully loaded, but you can use your
-issacs before then if you like.
+Calls `cb(isaacs)` once your isaacs has loaded enough to speak.
 
 isaacs.speak(text=isaacs.markov.pick())
 ---------------------------------------
