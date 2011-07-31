@@ -1,4 +1,4 @@
-var isaacs = require('isaacs');
+var isaacs = require('isaacs')
 var stdin = process.openStdin()
 
 isaacs(function (izs) {
