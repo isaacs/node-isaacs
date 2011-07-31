@@ -12,10 +12,10 @@ speak.js
 --------
 
 ````javascript
-var isaacs = require('isaacs')
+var isaacs = require("isaacs")
 
 isaacs(function (izs) {
-  var s = isaacs.speak().join(' ')
+  var s = isaacs.speak().join(" ")
   console.log(s)
   izs.end()
 })
@@ -28,7 +28,7 @@ output:
 methods
 =======
 
-var isaacs = require('isaacs')
+var isaacs = require("isaacs")
 
 isaacs(cb)
 ----------

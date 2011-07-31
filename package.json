@@ -1,5 +1,5 @@
 { "name" : "isaacs"
-, "version" : "0.0.0"
+, "version" : "0.0.1"
 , "description" : "Your very own isaacs."
 , "main" : "index.js"
 , "bin" : { "isaacs" : "bin/cli.js" }

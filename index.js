@@ -1,7 +1,7 @@
-var markov = require('markov')
-var fs = require('fs')
+var markov = require("markov")
+var fs = require("fs")
 
-var stream = fs.createReadStream(__dirname + '/logs.txt')
+var stream = fs.createReadStream(__dirname + "/logs.txt")
 
 exports.ready = false
 exports.loaded = false
@@ -13,7 +13,7 @@ var isaacs = module.exports = function (cb) {
   return isaacs
 }
 
-stream.once('data', function () {
+stream.once("data", function () {
   process.nextTick(function () {
     exports.ready = true
     callbacks.forEach(function (cb) {
