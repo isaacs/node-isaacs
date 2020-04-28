@@ -17,6 +17,8 @@
     "optimist": "0.2.x"
   },
   "scripts": {
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags",
     "regen": "node parse-tweets.js > tweets.txt",
     "postregen": "cat tweets.txt irc.txt > logs.txt"
   },
