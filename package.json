@@ -1,6 +1,6 @@
 {
   "name": "isaacs",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Your very own isaacs.",
   "main": "index.js",
   "bin": {
