@@ -4,7 +4,8 @@
   "description": "Your very own isaacs.",
   "main": "index.js",
   "bin": {
-    "isaacs": "bin/cli.js"
+    "isaacs": "bin/cli.js",
+    "isaacsay": "bin/say.js"
   },
   "directories": {
     "lib": ".",
