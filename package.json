@@ -17,7 +17,8 @@
     "optimist": "0.2.x"
   },
   "scripts": {
-    "regen": "node parse-tweets.js > logs.txt"
+    "regen": "node parse-tweets.js > tweets.txt",
+    "postregen": "cat tweets.txt irc.txt > logs.txt"
   },
   "repository": {
     "type": "git",
